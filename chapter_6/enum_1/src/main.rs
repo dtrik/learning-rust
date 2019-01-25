@@ -2,7 +2,7 @@
 fn main() {
    
     #[derive(Debug)] 
-    //basic enum definition, enumerate all options
+    //basic enum definition, enumerate all options - called variants
     enum IpAddrBasic {
         V4,
         V6,
